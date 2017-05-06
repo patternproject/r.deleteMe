@@ -33,7 +33,7 @@ getwd()
 ## ````````````````````
 ### Creating Sub folders or Setup Project Folders
 # SRC: http://stackoverflow.com/questions/42435225/creating-folders-using-walk-and-purrr/42441681
-my.folders <- data.frame(folder = c('1. Data','2.Code','3.References','4.Color Scheme','5.Extas','6.Output'))
+my.folders <- data.frame(folder = c('1.Data','2.Code','3.References','4.Color Scheme','5.Extas','6.Output'))
 
 my.folders %>%
   by_row(
